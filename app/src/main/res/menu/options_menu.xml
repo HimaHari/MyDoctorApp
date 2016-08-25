@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title=""
+        android:icon="@drawable/call_menu"
+        android:id="@+id/call"
+        app:showAsAction="always"/>
+    <item
+        android:title=""
+        android:icon="@drawable/sms_menu"
+        android:id="@+id/sms"
+        app:showAsAction="always"/>
+    <item
+        android:title="@string/mail"
+        android:id="@+id/mail"
+        android:showAsAction="never"/>
+    <item
+        android:title="@string/about_doctor"
+        android:id="@+id/dctr"
+        android:showAsAction="never"/>
+    <item
+        android:title="@string/report_problem"
+        android:id="@+id/repPrb"
+        android:showAsAction="never"/>
+
+</menu>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MyDoctorApp</string>
+    <string name="physician">Physician</string>
+    <string name="dermatologist">Dermatologist</string>
+    <string name="pededtrician">Pediatrician</string>
+    <string name="psychiatrist">Psychiatrist</string>
+    <string name="dentist">Dentist</string>
+    <string name="orthopedician">Orthopedician</string>
+    <string name="mail">Mail</string>
+    <string name="about_doctor">About Doctor</string>
+    <string name="report_problem">Report Problem</string>
+</resources>
