@@ -22,7 +22,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Dr. Hima Bindu"
+        android:text="@string/dr_hima_bindu"
         android:id="@+id/hbtv"
         android:layout_above="@+id/ped_tv_doc"
         android:layout_toEndOf="@+id/himabindu_derm_doc" />
@@ -31,7 +31,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="Pediatrician"
+        android:text="@string/pededtrician"
         android:id="@+id/ped_tv_doc"
         android:layout_alignBottom="@+id/himabindu_derm_doc"
         android:layout_alignStart="@+id/hbtv" />

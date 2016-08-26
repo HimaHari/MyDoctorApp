@@ -21,7 +21,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Dr. Hari"
+        android:text="@string/dr_hari"
         android:id="@+id/hariTv"
         android:layout_above="@+id/textView2"
         android:layout_centerHorizontal="true" />

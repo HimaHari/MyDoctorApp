@@ -10,4 +10,9 @@
     <string name="about_doctor">About Doctor</string>
     <string name="report_problem">Report Problem</string>
     <string name="dr_himaja">Dr.Himaja</string>
+    <string name="dr_narasimha">Dr. Narasimha</string>
+    <string name="dr_hitha">Dr. Hitha</string>
+    <string name="dr_hima_bindu">Dr. Hima Bindu</string>
+    <string name="dr_hari">Dr. Hari</string>
+    <string name="dr_stuti">Dr. Stuti</string>
 </resources>

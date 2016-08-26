@@ -22,7 +22,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Dr. Hitha"
+        android:text="@string/dr_hitha"
         android:id="@+id/hithaTv"
         android:layout_above="@+id/hita_tv_doc"
         android:layout_centerHorizontal="true" />
@@ -31,7 +31,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="Physician"
+        android:text="@string/physician"
         android:id="@+id/hita_tv_doc"
         android:layout_alignBottom="@+id/hitha_derm_doc"
         android:layout_alignStart="@+id/hithaTv" />

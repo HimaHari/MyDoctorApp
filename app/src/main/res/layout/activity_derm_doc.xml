@@ -22,7 +22,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Dr. Stuti"
+        android:text="@string/dr_stuti"
         android:id="@+id/stutiTv"
         android:layout_above="@+id/textView2"
         android:layout_centerHorizontal="true" />
@@ -31,7 +31,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="Dermatologist"
+        android:text="@string/orthopedician"
         android:id="@+id/textView2"
         android:layout_alignBottom="@+id/stuti_derm_doc"
         android:layout_alignStart="@+id/stutiTv" />
