@@ -22,7 +22,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Dr. Narasimha"
+        android:text="@string/dr_narasimha"
         android:id="@+id/naraTv"
         android:layout_above="@+id/nara_tv_doc"
         android:layout_toEndOf="@+id/nara_derm_doc"
@@ -32,7 +32,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="Psychiatrist"
+        android:text="@string/psychiatrist"
         android:id="@+id/nara_tv_doc"
         android:layout_alignBottom="@+id/nara_derm_doc"
         android:layout_alignStart="@+id/naraTv" />

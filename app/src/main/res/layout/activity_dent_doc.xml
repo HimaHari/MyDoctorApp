@@ -16,14 +16,14 @@
         android:id="@+id/himaDoc"
         android:layout_below="@id/dent_tool_doc"
          android:layout_marginTop="20dp"
-        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
         android:src="@drawable/hima"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Dr. Himaja"
+        android:text="@string/dr_himaja"
         android:id="@+id/himaTv"
         android:layout_above="@+id/hima_tv_doc"
         android:layout_alignStart="@+id/hima_tv_doc" />
@@ -32,7 +32,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="Dentist"
+        android:text="@string/dentist"
         android:id="@+id/hima_tv_doc"
         android:layout_alignBottom="@+id/himaDoc"
         android:layout_toEndOf="@+id/himaDoc"
