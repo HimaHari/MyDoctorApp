@@ -7,14 +7,14 @@
 
     <include
         layout="@layout/toolbar"
-        android:id="@+id/phsycho_tool_doc"/>
+        android:id="@+id/pyscho_tool_doc"/>
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:layout_width="130dp"
         android:layout_height="130dp"
         android:id="@+id/nara_derm_doc"
         android:src="@drawable/narasimha"
-        android:layout_below="@id/phsycho_tool_doc"
+        android:layout_below="@id/pyscho_tool_doc"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"/>
 
@@ -25,7 +25,8 @@
         android:text="Dr. Narasimha"
         android:id="@+id/naraTv"
         android:layout_above="@+id/nara_tv_doc"
-        android:layout_toEndOf="@+id/nara_derm_doc" />
+        android:layout_toEndOf="@+id/nara_derm_doc"
+        android:layout_marginStart="44dp" />
 
     <TextView
         android:layout_width="wrap_content"

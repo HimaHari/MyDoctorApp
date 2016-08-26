@@ -25,7 +25,8 @@
         android:text="Dr. Hitha"
         android:id="@+id/hithaTv"
         android:layout_above="@+id/hita_tv_doc"
-        android:layout_centerHorizontal="true" />
+        android:layout_toEndOf="@+id/hitha_derm_doc"
+        android:layout_marginStart="48dp" />
 
     <TextView
         android:layout_width="wrap_content"

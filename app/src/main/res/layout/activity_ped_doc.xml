@@ -34,7 +34,7 @@
         android:text="Pediatrician"
         android:id="@+id/ped_tv_doc"
         android:layout_alignBottom="@+id/himabindu_derm_doc"
-        android:layout_alignStart="@+id/hbtv" />
+        android:layout_centerHorizontal="true" />
 
 
 </RelativeLayout>

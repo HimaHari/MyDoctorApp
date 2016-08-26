@@ -31,7 +31,7 @@ public class PsychoInfo extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_psycho_info);
 
-        tb = (Toolbar)findViewById(R.id.phsychoTb);
+        tb = (Toolbar)findViewById(R.id.psychoTb);
         setSupportActionBar(tb);
 
         getSupportActionBar().setTitle(TITLE);

@@ -7,6 +7,6 @@
 
     <include
         layout="@layout/toolbar"
-        android:id="@+id/phsychoTb"/>
+        android:id="@+id/psychoTb"/>
 
 </RelativeLayout>
