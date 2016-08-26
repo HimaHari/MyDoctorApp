@@ -10,5 +10,40 @@
     layout="@layout/toolbar"
     android:id="@+id/dent_tool_doc"/>
 
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/himaDoc"
+        android:layout_below="@id/dent_tool_doc"
+         android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/hima"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/dr_himaja"
+        android:id="@+id/himaDr"
+        android:layout_alignBottom="@+id/himaDoc"
+        android:layout_toEndOf="@+id/textView3"
+        android:layout_marginBottom="54dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/dentist"
+        android:id="@+id/denDr"
+        android:layout_alignBottom="@+id/himaDoc"
+        android:layout_alignStart="@+id/himaDr" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/textView3"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/himaDoc" />
 
 </RelativeLayout>
