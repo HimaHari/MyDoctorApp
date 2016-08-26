@@ -8,4 +8,31 @@
         layout="@layout/toolbar"
         android:id="@+id/ortho_tool_doc"/>
 
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:id="@+id/hari_derm_doc"
+        android:src="@drawable/hari"
+        android:layout_below="@id/ortho_tool_doc"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Dr. Hari"
+        android:id="@+id/hariTv"
+        android:layout_above="@+id/textView2"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/orthopedician"
+        android:id="@+id/textView2"
+        android:layout_alignBottom="@+id/hari_derm_doc"
+        android:layout_alignStart="@+id/hariTv" />
+
 </RelativeLayout>

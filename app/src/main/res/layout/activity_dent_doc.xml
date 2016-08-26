@@ -23,27 +23,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="@string/dr_himaja"
-        android:id="@+id/himaDr"
-        android:layout_alignBottom="@+id/himaDoc"
-        android:layout_toEndOf="@+id/textView3"
-        android:layout_marginBottom="54dp" />
+        android:text="Dr. Himaja"
+        android:id="@+id/himaTv"
+        android:layout_above="@+id/hima_tv_doc"
+        android:layout_toEndOf="@+id/himaDoc" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="@string/dentist"
-        android:id="@+id/denDr"
+        android:text="Dentist"
+        android:id="@+id/hima_tv_doc"
         android:layout_alignBottom="@+id/himaDoc"
-        android:layout_alignStart="@+id/himaDr" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="New Text"
-        android:id="@+id/textView3"
-        android:layout_centerVertical="true"
         android:layout_toEndOf="@+id/himaDoc" />
 
 </RelativeLayout>
